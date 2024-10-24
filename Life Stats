@@ -1,0 +1,13 @@
+gender = (input("What is your gender, answer with he/she"))
+date = (input("List today's date."))
+player_name = (input("Input your name."))
+player_age = (input("What is your age?"))
+player_games = (input("List some games you play."))
+player_nationality = (input("Where were you born?"))
+player_sport = (input("What sports do you play?"))
+player_hobbys = (input("List some hobbys you enjoy doing."))
+player_siblings = (input("How many siblings do you have?"))
+player_food = (input("What's your favorite food?"))
+player_season = (input("What's your favorite season?"))
+
+print(f"As of {date}, this is all about {player_name}'s life. {player_name} is {player_age}. {gender} likes these games {player_games}. {player_name} plays {player_sport}, and is from {player_nationality}. This person enjoys {player_hobbys}. {gender} likes {player_food} and {player_season}. Last but not least, {player_name} has {player_siblings} siblings.'")
